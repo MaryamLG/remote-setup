@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "setuptools >= 61.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qmodel"
+version = "0.2.4"
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "scipy",
+]
+authors = [
+    {name = "Markus Penz", email = "m.penz@inter.at"},
+]
+license-files = [
+    "LICENSE",
+]
+
+[tool.setuptools]
+packages = ["qmodel"]
